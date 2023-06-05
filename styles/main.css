@@ -1,0 +1,309 @@
+/*
+Alvee Jalal 
+3/17/23
+IT 202 
+006
+Unit 3 Project Assignment Dessert Shop Phase 3
+ahj24@njit.edu
+*/
+
+/* body background color*/
+body  { 
+    background-color: #C6AD94;
+}
+
+/* float empty section to left*/
+section#table
+{
+    float: left;
+}
+
+/* float empty aside to right*/
+aside{
+    float: right;
+}
+
+/* table with 3px solid black borders for dessert data*/
+table,td,th {
+    margin-top: 1em;
+    border: 3px solid black;
+    clear: both;
+
+}
+
+/* Colors for all table records and fields*/
+tr#cornsilk{
+    background-color: lavender;
+}
+
+td#palegoldenrod {
+    background-color: lightpink;
+}
+td#peachpuff{
+    background-color: peachpuff;
+}
+td#papayawhip{
+    background-color: papayawhip
+}
+td#blanchedalmond{
+    background-color: khaki;
+}
+td#burlywood{
+    background-color: burlywood;
+}
+
+/* aligning text to center*/
+
+.center{
+    text-align: center;
+}
+#rederror
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Setting font to Times New Roman 12pt font*/
+#bodypar {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+/* Setting font size and family for TO info*/
+
+.TO {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+
+}
+
+/* Indenting with padding*/
+
+.indent{
+    padding-left: 3em;
+}
+
+/* Setting BIG font size and in bold like a header*/
+.big{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* Setting banner logo to top left. Setting its size*/
+header img {
+    float: left;
+    width:150px;
+    height:150px;
+    margin-left: 0px;
+}
+
+/* Section width*/
+
+section {
+    width: 1285.60px;
+    
+}
+
+/* Header width & height*/
+
+header{
+    width: 1500px;
+    height: 155px;
+}
+
+/* Header Paragraph Text (Title)*/
+
+header p {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    padding-right:3em;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Brush Script MT;
+}
+
+/* Navigation Bar dimensions, padding, borders*/
+body nav{
+    margin-top: 2em;
+    padding-left: 3em;
+    border: 4px solid black;
+    width: 1450px;
+    height: 15px;
+}
+
+/* Black bar separator for Navbar items */
+nav a {
+    margin-right: 2em;
+    padding-right: 40px;
+    border-right: 3px solid black;
+}
+
+/* Bottom black line for separating content in shipping label*/
+p.line {
+    border-bottom: 3px solid black;
+}
+
+/* Formatting text for TO address*/
+p.address{
+    text-align: right;
+    padding-top: 0em;
+    font-size: 15pt;
+    font-family: Comic Sans MS;
+    margin-right:0em;
+    margin-bottom:4px;
+
+}
+p.welcome{
+    text-align: left;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 12pt;
+    font-family: Comic Sans MS;
+    margin:0em;
+}
+
+/* Footer formatting and dimensions*/
+footer{
+    text-align: center;
+    clear: both;
+    width: 1252.8;
+    height: 18.4;
+    margin-top: 10px;
+}
+
+/* additional footer formatting and dimensions*/
+footer#bottomfooter{
+    text-align: center;
+    clear: both;
+    width: 1252.8;
+    height: 18.4;
+    margin-top: 19.5em;
+}
+/* Main element dimensions*/
+main {
+    width: 1500px;
+    height: 100px;
+}
+
+/*main page image dimensions */
+main#home section img {
+    width: 300px;
+    height: 300px;
+}
+/* Figure formatting and dimensions*/
+
+figure{
+    font-family: 'Courier New', Courier, monospace;
+    float:right;
+    width: 364.862;
+    font-size:12pt;
+}
+/* Barcode positioning for shipping label*/
+figure#barcode
+{
+float: left;
+}
+
+/* Palevioletred background for shipping form */
+.pinkbg {
+    background-color: palevioletred;
+}
+/* khaki background for 'create' dessert form */
+.khakibg
+{
+    background-color: khaki;
+}
+.whitesmoke
+{
+    background-color: whitesmoke;
+}
+/* Formatting and dimensions for Tres Leches picture on form pages */
+#Tres
+{
+    padding-top: 150px;
+    padding-right: 200px;
+    width: 200px;
+    height: 200px;
+}
+/* Formatting for brownie image on 'create' page */
+#Brownie
+{
+    padding-top: 100px;
+    padding-right: 500px;
+    width: 200px;
+    height: 200px;
+}
+/* Red color*/
+#red {
+    color: red;
+}
+/* Green color*/
+#green
+{
+    color:green;
+}
+/* Shipping label formatting and dimensions*/
+#label {
+    background-color: white;
+    width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt;
+}
+
+/* Paragraph formatting for shipping label*/
+#label p {
+    font-family: monospace;
+    font-size: 15px;
+}
+/* Spacing for text in shipping label*/
+#space {
+    padding-right: 5em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Shipping label formatting*/
+#labelspace {
+    padding-right: 3em;
+
+}
+
+/* Right float*/
+#right{
+    float: right;
+}
+/* Left float*/
+#left{
+    float: left;
+}
+
+/* Field separators in shipping label*/
+#field
+{
+    padding-right: 10px;
+    border-right: 4px solid black;
+}
+
+/* Bigger field separators in shipping label*/
+#divider {
+    font-size: 30px;
+    font-weight: bold;
+    border-right: 4px solid black;
+    margin-right: 2px;
+}
+/*adds spacing to the right of reset button*/
+input#resetbutton
+{
+    margin-right: 10em;
+}
+
+#dessertImage
+{
+    align-content: center;
+    width: 300px;
+    height: 300px;
+    padding-left: 35em;
+    padding-top: 3em;
+
+}
